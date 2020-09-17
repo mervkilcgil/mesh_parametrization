@@ -1,0 +1,104 @@
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+coin/
+coin_build/
+#Visual Studio files
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.sbr
+*.sdf
+*.gz
+*.fls
+*.aux
+*.fdb_latexmk
+*.synctex.gc
+*.log
+*.toc
+*.out
+ipch/
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+Ankh.NoLoad
+
+dir_to_ignore/C:\Users\e1943\Documents\merve\ceng789\assigment1\.vs
+
+*.VC.db
+*.VC
+*.db
+*.VC.opendb
+*.opendb
+*.VC.db-shm
+*.db-shm
+*.VC.db-wal
+*.db-wal
+
+#Tooling
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+
+#Project files
+[Bb]uild/
+
+#Subversion files
+.svn
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+*.suo
+*.VC.db
+*.db
+*.VC
+*.ipch
+*.log
+
+# Office Temp Files
+~$*
+ceng789/assigment2_2/libglViewer/viewer/include/imgui

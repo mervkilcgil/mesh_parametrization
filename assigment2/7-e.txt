@@ -1,0 +1,36 @@
+//one-ring neighborhood
+//using vertList
+void one-ring neighborhood(Mesh mesh)
+{
+    for (int i = 0; i < mesh.verts[7].vertList.size(); ++i)
+    {
+        printf(mesh.verts[7].vertList[i]);
+    }
+}
+
+//using edgeList
+void one-ring neighborhood(Mesh mesh)
+{
+    for (int i = 0; i < mesh.verts[7].edgeList.size(); ++i)
+    {
+        if (mesh.verts[7].edgeList[i].v1i != mesh.verts[7].idx)
+            printf(mesh.verts[7].edgeList[i].v1i);
+        else
+            printf(mesh.verts[7].edgeList[i].v2i);
+    }
+}
+
+
+//using triList
+void one-ring neighborhood(Mesh mesh)
+{
+    for (int i = 0; i < mesh.verts[7].triList.size(); ++i)
+    {
+        if (mesh.verts[7].triList[i].v1i != mesh.verts[7].idx)
+            printf(mesh.verts[7].triList[i].v1i);
+        if (mesh.verts[7].triList[i].v2i != mesh.verts[7].idx)
+            printf(mesh.verts[7].triList[i].v2i);
+        if (mesh.verts[7].triList[i].v3i != mesh.verts[7].idx)
+            printf(mesh.verts[7].triList[i].v3i);
+    }
+}
